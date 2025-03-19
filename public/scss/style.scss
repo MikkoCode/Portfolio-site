@@ -1,0 +1,24 @@
+$primary-color: #007bff;
+$font-stack: Arial, sans-serif;
+
+body {
+  font-family: $font-stack;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+h1 {
+  color: $primary-color;
+}
+
+button {
+  background: $primary-color;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+
+  &:hover {
+    background: darken($primary-color, 10%);
+  }
+}
